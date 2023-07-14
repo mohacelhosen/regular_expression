@@ -25,6 +25,7 @@ public class QuntifiersMatch {
         while (matcher.find()){
             count++;
             System.out.println("Start index::"+matcher.start()+"   Match String::"+matcher.group());
+            //at that position exist or blank(zero number)
         }
         System.out.println("Input Length::"+input.length());
         System.out.println("Pattern Match::"+count+" times");
