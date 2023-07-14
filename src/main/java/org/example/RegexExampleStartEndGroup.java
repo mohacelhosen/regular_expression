@@ -13,7 +13,7 @@ public class RegexExampleStartEndGroup {
         Matcher matcher = pattern.matcher(text);
 
         while (matcher.find()){
-            System.out.println("index::"+matcher.start());
+            System.out.println("Start index::"+matcher.start()+" "+"End index::"+matcher.end()+"  Group(s+e)::"+matcher.group());
             count++;
         }
         System.out.println("Occurrence::"+count);
